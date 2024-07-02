@@ -1,0 +1,135 @@
+.ql-font-Arial {
+  font-family: "Arial", sans-serif;
+  font-size: 24px !important;
+}
+.ql-font-Helvetica {
+  font-family: "Helvetica", sans-serif;
+  font-size: 24px !important;
+}
+.ql-font-Times-New-Roman {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px !important;
+}
+
+.ql-font-Courier {
+  font-family: "Courier";
+  font-size: 24px !important;
+}
+.ql-font-Verdana {
+  font-family: "Verdana";
+  font-size: 24px !important;
+}
+.ql-font-Palatino {
+  font-family: "Palatino";
+  font-size: 24px !important;
+}
+
+.ql-font-Georgia {
+  font-family: "Georgia";
+  font-size: 24px !important;
+}
+.ql-font-Garamond {
+  font-family: "Garamond";
+  font-size: 24px !important;
+}
+.ql-font-Bookman {
+  font-family: "Bookman";
+  font-size: 24px !important;
+}
+
+.ql-font-Comic-Sans-MS {
+  font-family: "Comic-Sans-Ms";
+  font-size: 24px !important;
+}
+.ql-font-Trebuchet-MS {
+  font-family: "Trebuchet-MS";
+  font-size: 24px !important;
+}
+.ql-font-Impact {
+  font-family: "Impact";
+  font-size: 24px !important;
+}
+
+.ql-font-Monospace {
+  font-family: "monospace";
+  font-size: 24px !important;
+}
+
+/* quill-custom.css */
+
+/* Style for the font picker dropdown */
+.ql-snow .ql-picker.ql-font .ql-picker-label::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item::before {
+  content: attr(data-value) !important;
+  /* font-size: 24px !important; */
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="Arial"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="Arial"]::before {
+  font-family: "Arial", sans-serif;
+  /* font-size: 24px !important; */
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="Helvetica"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="Helvetica"]::before {
+  font-family: "Helvetica", sans-serif;
+  /* font-size: 24px !important; */
+}
+
+.ql-snow
+  .ql-picker.ql-font
+  .ql-picker-label[data-value="Times-New-Roman"]::before,
+.ql-snow
+  .ql-picker.ql-font
+  .ql-picker-item[data-value="Times-New-Roman"]::before {
+  font-family: "Times New Roman", Times, serif !important;
+  /* font-size: 24px !important; */
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="Courier"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="Courier"]::before {
+  font-family: "Courier New", Courier, monospace;
+  /* font-size: 24px !important; */
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="Verdana"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="Verdana"]::before {
+  font-family: Verdana, Geneva, sans-serif;
+  /* font-size: 24px !important; */
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="Georgia"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="Georgia"]::before {
+  font-family: Georgia, serif;
+  /* font-size: 24px !important; */
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="Palatino"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="Palatino"]::before {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  /* font-size: 24px !important; */
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="Trebuchet-MS"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="Trebuchet-MS"]::before {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  /* font-size: 24px !important; */
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="Comic-San-Ms"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="Comic-San-Ms"]::before {
+  font-family: "Comic-San-Ms";
+  /* font-size: 24px !important; */
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="Monospace"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="Monospace"]::before {
+  font-family: "Monospace";
+  /* font-size: 24px !important; */
+}
+
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="Impact"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="Impact"]::before {
+  font-family: "Impact";
+  /* font-size: 24px !important; */
+}

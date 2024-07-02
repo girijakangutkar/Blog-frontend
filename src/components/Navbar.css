@@ -1,0 +1,33 @@
+#nav {
+  text-align: left;
+  background-color: #3ab54a;
+  box-shadow: 3px 2px 4px rgba(0.1, 0.1, 0.1, 0.1);
+  padding: 4px;
+  margin-bottom: 0px;
+  text-decoration: none;
+  color: inherit;
+  width: 82em;
+  margin-left: 5%;
+  place-items: center;
+  place-content: center;
+}
+
+li {
+  display: inline-block;
+  padding: 6px;
+  color: white;
+  /* margin: 9px; */
+  font-size: larger;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}
+
+/* #nav li:hover {
+  background: #f6eaea;
+  padding: 6px;
+}
+
+#nav li:active {
+  background: #f6eaea;
+} */

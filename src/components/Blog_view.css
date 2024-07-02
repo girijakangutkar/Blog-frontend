@@ -1,0 +1,187 @@
+#cont {
+  padding-top: 0px;
+  display: grid;
+  height: 100vh;
+  width: 100vh;
+  place-items: center;
+}
+
+.data-list {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  place-content: center;
+  padding: 30px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  padding-top: 0;
+}
+
+.data-row {
+  display: flex;
+  align-items: center;
+  place-items: center;
+  place-content: center;
+}
+
+#box {
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+}
+
+#more {
+  margin-top: 3px;
+}
+
+.data-image img {
+  width: 450px;
+  height: 353px;
+  margin: 4px;
+  margin-top: -30%;
+  border-radius: 8px;
+}
+
+.data-details {
+  text-align: justify;
+  padding: 30px;
+  margin: 10px;
+  width: 400px;
+  height: 250px;
+}
+
+.image-left {
+  flex-direction: row;
+}
+
+.image-right {
+  flex-direction: row-reverse;
+}
+
+button {
+  padding: 10px;
+  background-color: #212121;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #3ab54a;
+}
+
+select {
+  padding: 10px;
+  background-color: #3ab54a;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 10px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+h3 {
+  color: #3ab54a;
+  font-family: Aclonica;
+  font-size: 30px;
+}
+
+.truncated-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  position: relative;
+  max-height: 4.5em;
+  line-height: 1.5em;
+  font-family: Abhaya Libre;
+}
+
+.truncated-description::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 1.5em;
+  background: linear-gradient(to bottom, transparent, white);
+}
+
+#date {
+  font-size: 14px;
+  color: rgb(73, 73, 73);
+  font-style: italic;
+}
+
+.sort-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.sort-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #212121;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sort-buttons button:hover {
+  background-color: #2d8e3a;
+}
+
+.pagination-controls {
+  left: 50%;
+  bottom: -140%;
+  transform: translate(-50%, 100%);
+  position: absolute;
+  padding: 30px;
+}
+
+.btns {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 60%;
+}
+
+#pr {
+  float: left;
+  top: 20%;
+  transform: translate(-3%, -240%);
+  margin-left: 30px;
+  padding: 15px;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+#nxt {
+  float: right;
+  top: 10%;
+  transform: translate(-3%, -240%);
+  margin-right: 30px;
+  padding: 15px;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+#control {
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, 10%);
+  position: absolute;
+  padding: 15px;
+}
+
+button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
