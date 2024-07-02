@@ -11,6 +11,7 @@ img {
   width: 500px;
   top: 10%;
   transform: translate(0, 20%);
+  border-radius:8px;
 }
 
 #post {
