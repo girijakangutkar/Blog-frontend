@@ -71,6 +71,11 @@ button {
 
 button:hover {
   background-color: #3ab54a;
+  cursor: pointer;
+}
+
+select:hover {
+  cursor: pointer;
 }
 
 select {
